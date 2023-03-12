@@ -21,8 +21,9 @@ window.onload = function () {
         content.sign = getPureStr(content.from).pxWidth('18px Satisfy, serif');
         document.title = result.title;
         $('#recipient').append(content.to);
+        $('#flip').text(result.sender);
         if (result.stamp != null) {
-            $('#stamp').css('background', 'url(' + result.stamp + ') no-repeat');
+            $('#stamp img').attr('src', result.stamp);
         }
         toBase64(result.bgm);
     });
@@ -45,10 +46,19 @@ window.onload = function () {
         event.preventDefault();
     });
 
-    let content = $('#contact');
-    let mtop = (window.innerHeight - content.height()) * 0.5;
-    content.css('margin-top', mtop + 'px');
+    let contact = $('#contact');
+    let mtop = (window.innerHeight - contact.height()) * 0.5;
+    contact.css('margin-top', mtop + 'px');
     $('body').css('opacity', '1');
     $('#jsi-cherry-container').css('z-index', '-99');
 
+}
+
+window.onresize = function () {
+    let cherry_container = $('#jsi-cherry-container');
+    let canvas = cherry_container.find('canvas').eq(0);
+    canvas.height(cherry_container.height());
+    canvas.width(cherry_container.width());
+    // Do scaling for sakura background when the window is resized
+    loadingPage();
 }

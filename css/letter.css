@@ -23,13 +23,25 @@
 	height: 110px;
 	margin-top: -100px;
 	margin-right: -7px;
-	background: url(../img/stamp.png) no-repeat;
+	background: url(../img/stamp-base.png) no-repeat;
+}
+
+#stamp img {
+	display: block;
+	margin: 8% auto;
+	height: 82%;
 }
 
 #recipient {
 	font-size: 1.5em;
 	line-height: 1.6;
 	float: left;
+	cursor: default;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	color: #9b4849;
 }
 
 #envelope {
@@ -44,8 +56,9 @@
 }
 
 #flip {
-	margin: 160px 20px 0 0;
-	float: right;
+	margin: 165px 0 0 10px;
+	float: left;
+	font-size: 20px;
 }
 
 #close {
