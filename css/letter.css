@@ -55,9 +55,10 @@
 	margin-left: 200px;
 }
 
-#flip {
-	margin: 165px 0 0 10px;
-	float: left;
+#flipback {
+	position: fixed;
+	bottom: 5px;
+	right: 3px;
 	font-size: 20px;
 }
 
