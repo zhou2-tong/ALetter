@@ -1,7 +1,7 @@
 # Use eLuvLetter
 
 [![license](https://img.shields.io/github/license/george-chou/eLuvLetter.svg)](https://github.com/george-chou/eLuvLetter/blob/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/693b7eb2-519a-469c-86f8-722aadad2e46/deploy-status)](https://app.netlify.com/sites/eluvletter/deploys)
+[![Deploy static content to Pages](https://github.com/george-chou/eLuvLetter/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/george-chou/eLuvLetter/actions/workflows/static.yml)
 
 ## Important links
 |    Name    | URL                                            |
@@ -10,8 +10,8 @@
 |   GitHub   | <https://github.com>                           |
 | eLuvLetter | <https://github.com/george-chou/eLuvLetter>    |
 |  Netlify   | <https://app.netlify.com>                      |
-|  2D Demo   | <https://eluvletter.netlify.app>               |
-|  3D Demo   | <https://eluvletter.netlify.app/index-3d.html> |
+|  2D Demo   | <https://eluvletter.pages.dev>               |
+|  3D Demo   | <https://eluvletter.pages.dev/index-3d.html> |
 
 ## Customize
 
