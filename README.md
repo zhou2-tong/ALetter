@@ -4,14 +4,16 @@
 [![Deploy static content to Pages](https://github.com/george-chou/eLuvLetter/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/george-chou/eLuvLetter/actions/workflows/static.yml)
 
 ## Important links
-|    Name    | URL                                            |
-| :--------: | :--------------------------------------------- |
-|    Git     | <https://git-scm.com/downloads>                |
-|   GitHub   | <https://github.com>                           |
-| eLuvLetter | <https://github.com/george-chou/eLuvLetter>    |
-|  Netlify   | <https://app.netlify.com>                      |
+|    Name    | URL                                          |
+| :--------: | :------------------------------------------- |
+|    Git     | <https://git-scm.com/downloads>              |
+|   GitHub   | <https://github.com>                         |
+| eLuvLetter | <https://github.com/george-chou/eLuvLetter>  |
+|  Netlify   | <https://app.netlify.com>                    |
 |  2D Demo   | <https://eluvletter.pages.dev>               |
 |  3D Demo   | <https://eluvletter.pages.dev/index-3d.html> |
+
+Note: the heartbeat animation indicates that the BGM is loading, please be patient and wait.
 
 ## Customize
 
