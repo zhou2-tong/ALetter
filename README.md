@@ -44,7 +44,7 @@ The symbol `^n` in the demo means that the typewriter pauses for n milliseconds,
 
 BGM URL is the default mp3 directory or mp3 direct link in the demo code(Note: It is best not to use the API to get mp3, it may be blocked by cross-domain)
 
-If you use the default directory, you can rename your mp3 to `bgm.mp3` and overwrite `bgm.mp3` under `./eLuvLetter/bgm` to achieve custom modification of BGM
+If you use the default directory, you can rename your mp3 to `bgm.mp3` and overwrite `bgm.mp3` under `./eLuvLetter/bgm` to achieve custom modification of BGM (mp3 size is better < 500K)
 
 ## Deploy to Netlify
 1. Sync the modified local code to your GitHub account:
